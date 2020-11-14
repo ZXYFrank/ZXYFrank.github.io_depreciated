@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="生活 艺术 编程">
+<meta name="description" content="我们都要幸福！">
+<meta name="theme-color" content="#e7f5ff">
+<title>[西方哲学史] 康德 | xyz&#39;s blog</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1605358197863">
+<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+    href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+    rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/googlecode.css"
+    rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ["\\(", "\\)"]],
+            displayMath: [['$$', '$$'], ["\\[", "\\]"]]
+        },
+        options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'a', 'annotation', 'annotation-xml'],
+            ignoreHtmlClass: 'tex2jax_ignore|crayon-.*', // 'crayon-' 开头的类，属于Wordpress代码高亮库，这部分不需要处理，否则会导致显示不正确,这部分是正则式，多条之间用'|'分割
+            processHtmlClass: 'tex2jax_process'
+        },
+        //禁用右键菜单	
+        renderActions: {
+            addMenu: [0, '', '']
+        }
+    };
+</script>
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f7006f36fe0759182b1d3cc50b20a743";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+  <meta name="description" content="[西方哲学史] 康德" />
+  <meta name="keywords" content="Thoughts 🍉" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>xyz&#39;s blog</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">Appreciate the good, then it appreciates 🏃‍ </p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://zxy.js.org/" target="_self">
+                    🏠 Home
+                  </a>
+                
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://zxy.js.org/archives/" target="_self">
+                    📚 Archieves
+                  </a>
+                
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://zxy.js.org/tags/" target="_self">
+                    🔖 Tags
+                  </a>
+                
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://zxy.js.org/post/about/" target="_self">
+                    🧑 About
+                  </a>
+                
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://www.cnblogs.com/zxyfrank/gallery.html/" target="_self">
+                    🥂 Gallery
+                  </a>
+                
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                
+                  <a href="https://www.cnblogs.com/zxyfrank//" target="_blank">
+                    🚀 Tech–Cnblog 🚀
+                  </a>
+                
+              
+            </li>
+          
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout gemini ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            <div class="post-side-meta" id="post_side_meta">
+              
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">Frank</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>感谢身边的每一个人</p>
+      
+        <p>希望我们都天天开心</p>
+      
+        <p>Appreciate everyone around us❤️ </p>
+      
+        <p>Enjoy ourselves 😀</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">32</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">9</span>
+        <span class="site-item-stat-name language" data-lan="category">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">9</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://zxy.js.org/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+  
+
+
+
+</div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number no_compress"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li><a href="#%E5%BA%B7%E5%BE%B7%E6%80%9D%E6%83%B3%E7%9A%84%E8%83%8C%E6%99%AF%E7%A7%91%E5%AD%A6%E7%9F%A5%E8%AF%86">康德思想的背景：科学知识</a>
+<ul>
+<li><a href="#%E5%BA%B7%E5%BE%B7%E5%93%B2%E5%AD%A6%E9%9D%A2%E4%B8%B4%E7%9A%84%E9%97%AE%E9%A2%98">康德哲学面临的问题</a>
+<ul>
+<li><a href="#%E7%90%86%E6%80%A7%E7%9A%84%E5%8D%B1%E6%9C%BA">理性的危机</a></li>
+<li><a href="#%E8%87%AA%E7%94%B1%E7%9A%84%E5%A4%B1%E8%90%BD">自由的失落</a></li>
+<li><a href="#%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%A6%E7%9A%84%E9%9A%BE%E9%A2%98">形而上学的难题</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BA%B7%E5%BE%B7%E5%AF%B9%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%A6%E7%9A%84%E7%9C%8B%E6%B3%95">康德对形而上学的看法</a></li>
+</ul>
+</li>
+<li><a href="#%E5%93%A5%E7%99%BD%E5%B0%BC%E5%BC%8F%E7%9A%84%E9%9D%A9%E5%91%BD">哥白尼式的革命</a>
+<ul>
+<li><a href="#%E7%AB%8B%E5%9C%BA">立场</a>
+<ul>
+<li><a href="#%E8%83%8C%E6%99%AF%E7%A7%91%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%9A%84%E6%99%AE%E9%81%8D%E5%BF%85%E7%84%B6%E6%80%A7">背景——科学知识的普遍必然性</a></li>
+</ul>
+</li>
+<li><a href="#%E8%B0%83%E5%92%8C%E5%85%88%E5%A4%A9%E5%92%8C%E5%90%8E%E5%A4%A9%E7%9A%84%E7%9F%9B%E7%9B%BE%E5%8F%8D%E5%AE%A2%E4%B8%BA%E4%B8%BB">调和先天和后天的矛盾——反客为主</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%BB%E4%BD%93%E8%BD%AC%E6%8D%A2%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%9A%BE%E9%A2%98">主体转换带来的难题</a>
+<ul>
+<li><a href="#%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA">不可知论</a></li>
+<li><a href="#star%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA%E7%9A%84%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%BB%93%E6%9E%9C%E8%87%AA%E7%94%B1">:star:<em>不可知论的另一个结果</em>——自由</a>
+<ul>
+<li><a href="#%E5%85%88%E9%AA%8C%E4%B8%8E%E8%B6%85%E9%AA%8C">先验与超验</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%BA%B7%E5%BE%B7%E7%9A%84%E6%89%B9%E5%88%A4%E5%88%86%E6%9E%90%E5%86%85%E5%AE%B9">康德的批判（分析）内容</a>
+<ul>
+<li><a href="#%E5%AF%B9%E5%85%88%E5%A4%A9%E7%90%86%E6%80%A7%E8%AE%A4%E8%AF%86%E5%BD%A2%E5%BC%8F%E5%81%87%E8%AF%B4%E7%9A%84%E8%AF%81%E6%98%8E">对“先天理性认识形式”假说的证明</a></li>
+<li><a href="#%E7%A7%91%E5%AD%A6%E6%97%A0%E6%B3%95%E5%BE%97%E5%88%B0%E8%87%AA%E7%94%B1-%E5%8F%AA%E6%9C%89%E4%BC%A6%E7%90%86%E5%AD%A6%E5%8F%AF%E4%BB%A5">科学无法得到自由、只有伦理学可以</a></li>
+<li><a href="#%E4%BF%A1%E4%BB%B0%E8%A1%B0%E8%90%BD%E4%B9%8B%E5%90%8E%E7%90%86%E6%80%A7%E8%83%BD%E5%90%A6%E5%A1%AB%E8%A1%A5%E7%A9%BA%E7%BC%BA">信仰衰落之后，理性能否填补空缺</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4">《纯粹理性批判》</a>
+<ul>
+<li><a href="#%E7%9F%A5%E8%AF%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8D%95%E4%BD%8D%E6%98%AF%E5%88%A4%E6%96%AD%E8%80%8C%E4%B8%8D%E6%98%AF%E6%A6%82%E5%BF%B5">知识的基本单位是<strong>判断</strong>，而不是概念</a>
+<ul>
+<li><a href="#%E5%88%86%E6%9E%90%E5%88%A4%E6%96%AD">分析判断</a></li>
+<li><a href="#%E7%BB%BC%E5%90%88%E5%88%A4%E6%96%AD">综合判断</a></li>
+</ul>
+</li>
+<li><a href="#star%E5%85%88%E5%A4%A9%E7%BB%BC%E5%90%88%E5%88%A4%E6%96%AD%E5%A6%82%E4%BD%95%E5%8F%AF%E8%83%BD">:star:先天综合判断如何可能</a></li>
+</ul>
+</li>
+<li><a href="#%E6%84%9F%E6%80%A7%E7%9B%B4%E8%A7%82%E4%B8%8E%E4%B8%96%E7%95%8C%E7%9A%84%E5%85%B3%E7%B3%BB-%E6%8E%A5%E5%8F%97">感性（直观）——与世界的关系 / 接受</a>
+<ul>
+<li><a href="#%E5%BD%A2%E8%80%8C%E4%B8%8A%E5%AD%A6%E9%98%90%E6%98%8E%E6%97%B6%E7%A9%BA%E7%9B%B4%E8%A7%82%E5%AD%98%E5%9C%A8">形而上学阐明——时空直观存在</a>
+<ul>
+<li><a href="#%E5%86%85%E6%B6%B5%E5%92%8C%E5%A4%96%E5%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB">内涵和外延的关系</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E5%AD%A6%E7%9A%84%E8%AF%81%E6%98%8E">数学的证明</a></li>
+<li><a href="#star%E5%BF%85%E9%A1%BB%E6%84%8F%E8%AF%86%E5%88%B0%E5%BA%B7%E5%BE%B7%E7%90%86%E8%AE%BA%E7%9A%84%E8%83%8C%E6%99%AF">:star:必须意识到康德理论的背景</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9F%A5%E6%80%A7%E8%8C%83%E7%95%B4-%E6%9E%84%E6%88%90">知性——“范畴” / 构成</a>
+<ul>
+<li><a href="#%E5%85%88%E9%AA%8C%E6%BC%94%E7%BB%8E%E8%AF%81%E6%98%8E">先验演绎——证明</a>
+<ul>
+<li><a href="#%E8%AF%81%E6%98%8E%E7%9F%A5%E6%80%A7%E9%9C%80%E8%A6%81%E4%BD%9C%E4%B8%BA%E7%BB%8F%E9%AA%8C%E7%9A%84%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6">证明知性需要作为“经验的先决条件”的两个先决条件</a></li>
+</ul>
+</li>
+<li><a href="#%E7%9F%A5%E6%80%A7%E4%B8%BA%E8%87%AA%E7%84%B6%E7%AB%8B%E6%B3%95">知性为自然立法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%90%86%E8%AE%BA%E7%90%86%E6%80%A7%E5%BD%A2%E6%88%90%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB-%E8%B0%83%E6%95%B4">理论理性——形成知识体系 / 调整</a>
+<ul>
+<li><a href="#%E4%BA%BA%E7%B1%BB%E7%90%86%E6%80%A7%E7%9A%84%E5%88%86%E7%B1%BB">人类理性的分类</a></li>
+<li><a href="#%E7%90%86%E6%80%A7%E5%AE%87%E5%AE%99%E8%AE%BAantinomy-%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D">理性宇宙论：Antinomy 二律背反</a>
+<ul>
+<li><a href="#%E7%AC%AC%E4%B8%80%E7%BB%84%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D%E6%97%B6%E7%A9%BA%E6%98%AF%E5%90%A6%E6%9C%89%E9%99%90">第一组二律背反：时空是否有限</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E7%BB%84%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D%E7%89%A9%E4%BD%93%E6%98%AF%E5%90%A6%E5%8F%AF%E5%88%86">第二组二律背反：物体是否可分</a></li>
+<li><a href="#%E7%AC%AC%E4%B8%89%E7%BB%84%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97">第三组二律背反：是否存在自由意志</a>
+<ul>
+<li><a href="#%E8%87%AA%E7%94%B1%E5%9B%A0">“自由因”</a></li>
+</ul>
+</li>
+<li><a href="#%E7%90%86%E6%80%A7%E7%A5%9E%E5%AD%A6%E7%90%86%E6%83%B3">理性神学：理想</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%9E%E8%B7%B5%E7%90%86%E6%80%A7%E4%BA%BA%E7%B1%BB%E7%90%86%E6%80%A7%E9%81%93%E5%BE%B7">实践理性——人类理性/道德</a>
+<ul>
+<li><a href="#%E4%BA%BA%E7%9A%84%E4%BB%B7%E5%80%BC%E5%92%8C%E5%B0%8A%E4%B8%A5%E8%87%AA%E7%84%B6%E4%B8%AD%E6%B2%A1%E6%9C%89%E4%BD%86%E6%98%AF%E5%BA%94%E8%AF%A5%E6%9C%89">人的价值和尊严——“自然中没有，但是应该有”</a></li>
+<li><a href="#%E9%81%93%E5%BE%B7%E8%A1%8C%E4%B8%BA%E5%AE%9A%E8%A8%80%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8A%A8%E6%9C%BA%E7%90%86%E6%80%A7%E4%B8%BA%E8%87%AA%E8%BA%AB%E7%AB%8B%E6%B3%95">道德行为（定言命令）的动机——理性为自身立法</a></li>
+<li><a href="#%E5%AE%9E%E8%B7%B5%E7%90%86%E6%80%A7%E7%AC%AC%E4%B8%80">实践理性第一</a></li>
+<li><a href="#%E5%AE%9E%E8%B7%B5%E7%90%86%E6%80%A7%E7%9A%84%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D%E9%81%93%E5%BE%B7%E6%97%A0%E6%9D%A1%E4%BB%B6%E5%AE%9E%E7%8E%B0%E6%9C%89%E6%9D%A1%E4%BB%B6">实践理性的二律背反——道德无条件，实现有条件</a></li>
+<li><a href="#%E5%AE%9E%E8%B7%B5%E7%90%86%E6%80%A7%E5%8F%AF%E4%BB%A5%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%81%87%E8%AE%BE">实践理性可以实现的假设</a></li>
+<li><a href="#star%E9%81%93%E5%BE%B7%E9%AB%98%E4%BA%8E%E6%98%9F%E7%A9%BA">:star:道德高于星空</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BA%B7%E5%BE%B7%E5%93%B2%E5%AD%A6%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7">康德哲学的局限性</a></li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://zxy.js.org/post/Kant/">
+      [西方哲学史] 康德
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-11-05 22:46:38">2020-11-05</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="https://zxy.js.org/tag/e_sTJgNU6/">
+        <span>Thoughts 🍉</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>17<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>4965<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+    
+    
+    <span id="/post/Kant/" data-flag-title="[西方哲学史] 康德" class="meta-item pc-show leancloud_visitors">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-eye"></i>
+      <span><span class="language" data-lan="view">浏览量</span>：<span class="leancloud-visitors-count"></span></span>
+    </span>
+    
+  </div>
+</section>
+            <div class="post-body next-md-body" id="post_body">
+              <p>1724–1804</p>
+<blockquote>
+<p>西方哲学9：张志伟|康德哲学的现代意义 - 浪兄的文章 - 知乎 https://zhuanlan.zhihu.com/p/86834293</p>
+</blockquote>
+<p><strong>现代哲学的开端</strong></p>
+<blockquote>
+<p>背景：德国封建割据，经济远远落后</p>
+<ul>
+<li>意识形态相对独立性</li>
+<li>文化交流活跃</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>德国哲学比较晦涩，较为间接地影响了历史进程</p>
+</blockquote>
+<h1 id="康德思想的背景科学知识">康德思想的背景：科学知识</h1>
+<h2 id="康德哲学面临的问题">康德哲学面临的问题</h2>
+<ol>
+<li>理性的危机</li>
+<li>自由的失落</li>
+<li>形而上学的难题</li>
+</ol>
+<h3 id="理性的危机">理性的危机</h3>
+<blockquote>
+<p>休谟的怀疑论让科学知识的来源走到了死胡同</p>
+</blockquote>
+<p>但是人们仍然相信普遍规律</p>
+<h3 id="自由的失落">自由的失落</h3>
+<p><font size = 6 color = red><strong>科学精神的推广-&gt;决定论</strong></font></p>
+<p>法则的存在，让自由失去了意义</p>
+<h3 id="形而上学的难题">形而上学的难题</h3>
+<ul>
+<li>休谟的怀疑论</li>
+<li>法国的无神论</li>
+</ul>
+<blockquote>
+<p><u><em><strong>根本问题：科学精神的介入</strong></em></u></p>
+</blockquote>
+<hr>
+<ul>
+<li>
+<p>休谟</p>
+</li>
+<li>
+<p>卢梭</p>
+<blockquote>
+<p><font color = orange>我过去认为唯有知识能够造福于人类，所以我以有知识为荣，鄙视那些无知的人们，但是卢梭纠正了我的偏见，教会了我尊重人</font></p>
+<p>卢梭的代表观点（于启蒙运动当中对于知识和理性的推崇不一致）</p>
+<p><font color = orange size = 5><strong>在自然状态下人是自由平等的。</strong></font></p>
+</blockquote>
+</li>
+</ul>
+<h2 id="康德对形而上学的看法">康德对形而上学的看法</h2>
+<p>人类理性试图超越自身有限性，通达自由境界的理想</p>
+<blockquote>
+<p>形而上学若是成为普遍必然的科学，则背离了理想</p>
+</blockquote>
+<h1 id="哥白尼式的革命">哥白尼式的革命</h1>
+<h2 id="立场">立场</h2>
+<h3 id="背景科学知识的普遍必然性">背景——科学知识的普遍必然性</h3>
+<ol>
+<li>经验论：一切知识来源于感觉经验</li>
+<li>唯理论和经验论的共识：普遍必然性无法建立在感觉经验之上</li>
+</ol>
+<p><font size = 5>❓ 科学知识具有普遍必然性?</font></p>
+<p>康德认为：感觉经验分为</p>
+<ul>
+<li>先天的</li>
+<li>后天的</li>
+</ul>
+<ol>
+<li><strong>后天的经验</strong></li>
+</ol>
+<ul>
+<li>来源于感觉经验</li>
+<li>和对象发生关系……
+<ul>
+<li><img src="https://gitee.com/ZXYFrank/picgo/raw/master/img/20201102201006.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>个别的，偶然的，相对的</li>
+</ul>
+<ol start="2">
+<li><strong>先天的形式</strong></li>
+</ol>
+<ul>
+<li>可以作为经验的条件</li>
+<li>普遍必然的</li>
+</ul>
+<h2 id="调和先天和后天的矛盾反客为主">调和先天和后天的矛盾——反客为主</h2>
+<p>👏<strong>这种哥白尼式的转向值得学习</strong></p>
+<p><s>知识必须符合对象</s></p>
+<p>对象必须符合主体的先天认识形式</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">知</mi><mi mathvariant="normal">识</mi><mo>=</mo><mi mathvariant="normal">感</mi><mi mathvariant="normal">觉</mi><mi mathvariant="normal">经</mi><mi mathvariant="normal">验</mi><mo>+</mo><mi mathvariant="normal">主</mi><mi mathvariant="normal">体</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">认</mi><mi mathvariant="normal">识</mi><mi mathvariant="normal">形</mi><mi mathvariant="normal">式</mi></mrow><annotation encoding="application/x-tex">知识 = 感觉经验 + 主体的认识形式
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">知</span><span class="mord cjk_fallback">识</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">觉</span><span class="mord cjk_fallback">经</span><span class="mord cjk_fallback">验</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">主</span><span class="mord cjk_fallback">体</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">认</span><span class="mord cjk_fallback">识</span><span class="mord cjk_fallback">形</span><span class="mord cjk_fallback">式</span></span></span></span></span></p>
+<blockquote>
+<p>🤔个人理解</p>
+<p>康德认为知识不是客观存在</p>
+<p>而是人运用普遍的<strong>理性思维工具</strong>（逻辑）处理经验得到的结果</p>
+</blockquote>
+<p>康德认为知识</p>
+<ul>
+<li>内容上是后天的、经验的</li>
+<li><strong>形式</strong>上是先天的</li>
+</ul>
+<h1 id="主体转换带来的难题">主体转换带来的难题</h1>
+<h2 id="不可知论">不可知论</h2>
+<p>我们只能通过特定的认识形式认识事物</p>
+<p>比如我们的感觉</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mspace linebreak="newline"></mspace></mrow><annotation encoding="application/x-tex">y = f(x)\\
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span></span><span class="mspace newline"></span></span></span></span></p>
+<p>事物必然有其之外的部分</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>z</mi><mo>=</mo><mi>x</mi><mo>−</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">z = x - f(x)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span></span></span></span></span></p>
+<p><strong>物自体(things in themselves)不可知</strong>：我们只能通过感觉认识世界（Appearance），世界本身不一定如我们所见（所认识）。也许是，也许不是，但是这本身是永远无法验证的</p>
+<blockquote>
+<p>不同人的世界是不一样的</p>
+<p>那么知识的必然性如何体现？</p>
+</blockquote>
+<p><font size = 5>🤔我感觉这是对的，我们永远无法验证我们是否认识了自然。我们是认识并且解释了现象，我们本身就受着自身认识形式的限制（Biological / Neural）</font></p>
+<h2 id="star不可知论的另一个结果自由">⭐️<em>不可知论的另一个结果</em>——自由</h2>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>z</mi><mo>=</mo><mi>x</mi><mo>−</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">z = x - f(x)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span></span></span></span></span></p>
+<p>表明仍然可能存在一个自由的领域，不受认识形式的限制，完全自由</p>
+<p>这些领域当中  <u><em><strong>无条件的事物</strong></em></u>构成了<u><em><strong>经验的原因</strong></em></u>——<u><em><strong>自由因</strong></em></u></p>
+<p><font size = 6>我们无法认识“自由”(x - f(x))</font></p>
+<h3 id="先验与超验">先验与超验</h3>
+<figure data-type="image" tabindex="2"><img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Constudkant.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p><strong>先验</strong>的概念在《纯批》当中非常重要</p>
+</blockquote>
+<ul>
+<li>先验：先天认识形式——不研究对象，研究形式
+<ul>
+<li>普遍说明</li>
+<li>亚里士多德——“范畴”</li>
+</ul>
+</li>
+<li>超验：<strong>物自体</strong>，物体本身的存在，超越于人对于经验的处理能力而<strong>不可知</strong>
+<ul>
+<li>事物的终极原因</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><u><em><strong>认识超验，就是非法地使用了人类的认识能力</strong></em></u></p>
+<p><font size = 4 color = red>因此，<strong>形而上学</strong>不是科学</font></p>
+</blockquote>
+<h1 id="康德的批判分析内容">康德的批判（分析）内容</h1>
+<h2 id="对先天理性认识形式假说的证明">对“先天理性认识形式”假说的证明</h2>
+<blockquote>
+<p>批判——分析考察，与独断论相对</p>
+</blockquote>
+<h2 id="科学无法得到自由-只有伦理学可以">科学无法得到自由、只有伦理学可以</h2>
+<p>“我必须限制知识，以便为信念留地盘”——《纯批》</p>
+<p>认识深入的领域（比如科学扩大到道德的领域），自由将不复存在</p>
+<h2 id="信仰衰落之后理性能否填补空缺">信仰衰落之后，理性能否填补空缺</h2>
+<blockquote>
+<p>当代中国、世界快速发展的同时也面临这个问题</p>
+</blockquote>
+<ul>
+<li>价值多元化</li>
+<li>道德相对主义</li>
+</ul>
+<p>在物质发展的情况下如何找到精神依托</p>
+<hr>
+<p>康德不考虑认识的发展过程，而是静态的结构分析</p>
+<ul>
+<li>
+<p>感性</p>
+</li>
+<li>
+<p>知性</p>
+</li>
+<li>
+<p>理性</p>
+</li>
+<li>
+<p>感性的先天认识形式是空间与时间</p>
+<ul>
+<li>接受性</li>
+</ul>
+</li>
+<li>
+<p>知性的先天认识形式是范畴</p>
+<ul>
+<li>构成性</li>
+</ul>
+</li>
+<li>
+<p>理性的先天认识形式是理念</p>
+<ul>
+<li>调整性</li>
+</ul>
+</li>
+</ul>
+<h1 id="纯粹理性批判">《纯粹理性批判》</h1>
+<p>纯粹理性批判分为：</p>
+<ol>
+<li>
+<p>先验感性论</p>
+</li>
+<li>
+<p>先验逻辑论</p>
+<blockquote>
+<p>先验逻辑和形式逻辑相对</p>
+<p>形式逻辑不关心知识的内容</p>
+<blockquote>
+<p>“飞马”是会飞的马</p>
+<p>我们并不关心“飞马”本身是否存在</p>
+</blockquote>
+</blockquote>
+<ol>
+<li>
+<p>先验分析论</p>
+<p><strong>关于真理</strong></p>
+</li>
+<li>
+<p>先验辩证论</p>
+<p><strong>关于幻象</strong></p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="知识的基本单位是判断而不是概念">知识的基本单位是<strong>判断</strong>，而不是概念</h2>
+<blockquote>
+<p>“地球”不是知识</p>
+<p>“地球是行星”是知识</p>
+</blockquote>
+<h3 id="分析判断">分析判断</h3>
+<p>宾词本身是主词的一部分</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>(</mo><mi>p</mi><mo>)</mo><mo>−</mo><mi>p</mi></mrow><annotation encoding="application/x-tex">s(p)-p
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">s</span><span class="mopen">(</span><span class="mord mathdefault">p</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></span></p>
+<blockquote>
+<p>分析判断指宾词概念包含于主词概念之中的判断</p>
+<p>如“一切物体都是有广延性的”</p>
+<p>这种判断只是把主词已包含有的宾词意义分析出来，通过判断对主词所含意义无所增益，所以又叫做“说明的判断”。</p>
+</blockquote>
+<h3 id="综合判断">综合判断</h3>
+<blockquote>
+<p><strong>物体是热胀冷缩的</strong></p>
+</blockquote>
+<ul>
+<li>
+<p><u><em><strong>先天综合判断</strong></em></u></p>
+<ul>
+<li>
+<p><strong>普遍必然</strong></p>
+</li>
+<li>
+<p><strong>“科学知识”</strong></p>
+<blockquote>
+<p>康德指出：一切科学知识都是由这类判断构成的。如数学命题﹕7+5=12。单纯联结7和5的概念﹐根本分析不出12这个谓项﹐只有借助于直观﹐例如借助手指的逐一相加﹐然后才得出12这个概念。所以算术命题永远是综合的﹐然而它又是先天的﹐因为7+5=12这个命题具有不是来自经验的普遍必然性。又如几何学命题﹕两点间直线是最短的线﹐主项中“直”的概念不包含量﹐只包含质﹐因此“短”这个量的概念不能从主项分析得出﹐只能由直观加上去﹐但是这个命题又公认为普遍有效的。又如自然科学命题﹐每个发生的事物都有其原因。“原因”指与发生的事物不同的某种东西﹐不包含在主项里﹔但是每个发生的事物又必然有原因﹐这种必然性完全不能从经验得来﹐是以先天知性概念为依据的。只有先天综合判断才能构成科学知识。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>后天综合判断</p>
+<ul>
+<li>感觉经验</li>
+</ul>
+</li>
+</ul>
+<h2 id="star先天综合判断如何可能">⭐️先天综合判断如何可能</h2>
+<p>康德将其分解为三个问题</p>
+<ol>
+<li>纯粹数学如何可能</li>
+<li>纯粹自然科学如何可能</li>
+<li>一般的形而上学如何可能</li>
+</ol>
+<blockquote>
+<p><strong>如何可能：基本（必要）条件</strong></p>
+</blockquote>
+<p><strong>理论理性——先天认识形式</strong></p>
+<p><strong>康德希望找到先天综合判断的条件，并且为形而上学正名</strong></p>
+<blockquote>
+<p>康德已经判定先天认识能力存在</p>
+<p>而直接讨论<strong>如何可能</strong></p>
+<p>因为几何学、物理学已经作为“事实”存在，而形而上学还不是“科学”</p>
+</blockquote>
+<h1 id="感性直观与世界的关系-接受">感性（直观）——与世界的关系 / 接受</h1>
+<p><font size = 4 color = Violet>如果直观必须通过时空作为媒介，那么他们必然构成人类经验的先决条件</font></p>
+<p>继承洛克的思想</p>
+<ul>
+<li>外感觉（感觉≈直观）</li>
+<li>内感觉</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>外感觉媒介</th>
+<th>内感觉媒介</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>空间</td>
+<td>时间</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>康德：空间和时间是<strong>先天直观</strong>的形式，我们看待事物的方式</p>
+</blockquote>
+<p>💐可以参见视崖实验</p>
+<h2 id="形而上学阐明时空直观存在">形而上学阐明——时空直观存在</h2>
+<ol>
+<li><em>时空不是世界本身的存在方式，而是<strong>我们</strong>认识世界的<strong>直观</strong>形式</em></li>
+<li>时空是先决/先天的，不是感知的结果</li>
+</ol>
+<blockquote>
+<p>人们可以想象没有任何事物的<strong>空的</strong>空间和时间，但是却不能想象有某种不在空间和时间中的事物</p>
+</blockquote>
+<p>以空间为例</p>
+<ol>
+<li>人并不需要积累（大量）感觉经验形成空间感</li>
+<li>空间不是一个感觉经验，<strong>因为空间包含所有物体</strong>，不会有一个概念包含所有概念。（或者说，一个概念不会需要无限的物体下定义）</li>
+</ol>
+<h3 id="内涵和外延的关系">内涵和外延的关系</h3>
+<figure data-type="image" tabindex="3"><img src="http://www.sagemath.org/calctut/calctut-pix/onesided05.png" alt="" loading="lazy"></figure>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow><annotation encoding="application/x-tex">y = \frac{1}{x}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>x 必然是某些概念构成的内涵</p>
+<p>但是x 不能为0</p>
+<blockquote>
+<p>我们无法找到<strong>没有内涵</strong>，<strong>无从指代</strong>的事物</p>
+</blockquote>
+<h2 id="数学的证明">数学的证明</h2>
+<p>康德把数学分为几何学和算数，数学都是综合判断</p>
+<p><font size = 5>❓假如我在研究人类的认识问题，我可能不会划分这样的分类<br/>这或许也是哲学本身面临的问题：一个极端的少样本，甚至是超验的问题</font></p>
+<table>
+<thead>
+<tr>
+<th>几何学——空间直观</th>
+<th>算术——时间直观</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>线段是两点之间最短的线</td>
+<td>1 + 1 = 2<br/>如果只有2个事物，就没有加的这个过程，所以算数是一个演变的过程<br/>👏<strong>这个甚至有点图灵机的意思了！</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="star必须意识到康德理论的背景">⭐️必须意识到康德理论的背景</h2>
+<p>非欧几何，相对论都是之后出现的</p>
+<p><font size = 4 color = Violet>我们并不必深究康德的所谓“时空不存在”的理论，但是康德的本意，是在找寻认识的<strong>载体</strong>，追求<strong>一般规律</strong></font></p>
+<h1 id="知性范畴-构成">知性——“范畴” / 构成</h1>
+<blockquote>
+<p>和亚里士多德范畴—世界—的组织形式不同</p>
+<p>康德认为知性是认识世界的形式</p>
+</blockquote>
+<blockquote>
+<p><strong>直观的概念是“盲”的，对应经验材料</strong></p>
+<p><strong>知性的概念是“空”的，对应认识工具</strong></p>
+</blockquote>
+<h2 id="先验演绎证明">先验演绎——证明</h2>
+<p>康德从法学借鉴了演绎的概念，证明范畴应用于经验的客观有效性，即证明</p>
+<blockquote>
+<p>事实不等于权利</p>
+<p>比如我进入了一间教室，并不代表我拥有这个教室的使用权</p>
+</blockquote>
+<h3 id="证明知性需要作为经验的先决条件的两个先决条件">证明知性需要作为“经验的先决条件”的两个先决条件</h3>
+<ol>
+<li>
+<p>感性直观</p>
+<p>已经证明</p>
+</li>
+<li>
+<p>先验自我 / 同一性自我</p>
+<p><code>I think therefore I am</code></p>
+<p>自我意识不在经验之中，无法认识他</p>
+</li>
+</ol>
+<p>证明</p>
+<ol>
+<li>
+<p>感性直观和自我是不同的<strong>两种能力</strong></p>
+</li>
+<li>
+<p>形成知识需要综合</p>
+<ul>
+<li>联系不同的概念</li>
+<li>综合是知性的能动性</li>
+</ul>
+</li>
+<li>
+<p>“我思必须能够伴随着我的一切表象”</p>
+<ol>
+<li>
+<p>先验自我</p>
+<blockquote>
+<p>我的认识是我的</p>
+</blockquote>
+</li>
+<li>
+<p>感性直观提供表象</p>
+<blockquote>
+<p>问题在于，感性直观提供的<u>***杂多表象（材料）***</u>如何进入自我意识</p>
+<p>需要一个媒介</p>
+</blockquote>
+<figure data-type="image" tabindex="4"><img src="https://gitee.com/ZXYFrank/picgo/raw/master/img/20201104230304.png" alt="" loading="lazy"></figure>
+</li>
+<li>
+<p>范畴对于经验的客观有效性</p>
+<p>范畴=知性（认识主体）的综合统一功能。</p>
+<p>它一方面把<strong>先验自我的同一性</strong>带给每一个杂多表象。</p>
+<p>另一方面把<strong>杂多表象</strong>带到先验自我之中来。</p>
+</li>
+<li>
+<p>感性和知性如何沟通</p>
+<blockquote>
+<p>可以理解<strong>杂多表象和认识能力如何沟通</strong></p>
+</blockquote>
+<p><font size = 5 color = orange><u><em><strong>先验的想象力</strong></em></u><br/>可以参见心理学当中的格式塔效应</font></p>
+<blockquote>
+<p>我们如何判断一个“非我”的对象？</p>
+<p>因为<strong>盲目</strong>的感性（视觉材料）+理性（视觉信息综合）直观，即认识活动参与其中</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="知性为自然立法">知性为自然立法</h2>
+<p>我们永远生活在经验的世界中</p>
+<p>经验就是表象，表象作为经验，就要符合连接表象的规则——知性范畴</p>
+<p><font size = 4 color = skyblue>弹幕里一个有趣的观点<br/>是不是某些<strong>神经网络</strong>会超越人类的认识能力（范畴）</font></p>
+<h1 id="理论理性形成知识体系-调整">理论理性——形成知识体系 / 调整</h1>
+<h2 id="人类理性的分类">人类理性的分类</h2>
+<blockquote>
+<p>人是有限的理性存在</p>
+<p>《纯粹理性批判》</p>
+</blockquote>
+<p>人类理性的两大功能</p>
+<ul>
+<li>理论理性
+<ul>
+<li>认识能力</li>
+<li><strong>有限</strong></li>
+<li>受到自然法则的限制</li>
+</ul>
+</li>
+<li>实践理性
+<ul>
+<li>伦理、道德</li>
+<li><strong>无限</strong></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>知识的知识</p>
+</blockquote>
+<p>三个理念：我思、上帝、世界</p>
+<blockquote>
+<p>和传统形而上学相对应<br>
+理性心理学一灵魂<br>
+理性宇宙论一世界<br>
+理性神学一上帝</p>
+</blockquote>
+<p>理想的统一性（超验）</p>
+<ul>
+<li>灵魂主观世界统一性</li>
+<li>世界万物统一性</li>
+<li>上帝大全统一性</li>
+</ul>
+<p>作为目标认识引导认识活动是有意义的，但是将其作为现实的认识对象进行认识，则会陷入幻象当中</p>
+<blockquote>
+<p>幻象是混淆了理想的统一性和现实的统一性。—（德）康德</p>
+</blockquote>
+<blockquote>
+<p>张志伟老师的例子：</p>
+<p>一个孩子说：如果我可以走到水天相接的点，那我就可以走上天空</p>
+<p>但是事实上，只要我前进一步，哪个点就会后退一步</p>
+<p>经验没有尽头，我们想要认识对象，永远要凭借经验</p>
+<figure data-type="image" tabindex="5"><img src="https://gitee.com/ZXYFrank/picgo/raw/master/img/20201105095205.png" alt="" loading="lazy"></figure>
+</blockquote>
+<h2 id="理性宇宙论antinomy-二律背反">理性宇宙论：Antinomy 二律背反</h2>
+<p>康德的二律背反是什么意思？他怎样论证上帝存在的？ - 总想说话的猫的回答 - 知乎 https://www.zhihu.com/question/20388768/answer/223856248</p>
+<p>宇宙万物可以经验</p>
+<p>但是宇宙本身不是经验（宇宙不是对象）</p>
+<p><font size = 4 color = Purple>在大爆炸理论、相对论的背景下，必须意识到这种理论的局限性</font></p>
+<blockquote>
+<p>二律背反：对同一个对象，可以形成矛盾的理论</p>
+<p>康德从贬义理解辩证（和黑格尔，马克思不同）</p>
+</blockquote>
+<h3 id="第一组二律背反时空是否有限">第一组二律背反：时空是否有限</h3>
+<ul>
+<li>假设时间无限
+<ul>
+<li>比如 <code>1:00</code></li>
+<li>如果时间无限，那么这个时间刻度如何而来，之前经过了多少时间？换句话说，这个时间是相对于什么标准订立的？</li>
+</ul>
+</li>
+<li>假设空间无限
+<ul>
+<li>空间是无限大全</li>
+<li>那么我们认识到的bounded 空间如何组合成无限的空间？</li>
+</ul>
+</li>
+</ul>
+<p><font size  = 4>😂非常牵强的证明，哈哈好像有点诡辩的意思，这和无穷集是否存在一个道理hhh</font></p>
+<ul>
+<li>假设时间有限
+<ul>
+<li>也就是说在这之前什么都没有</li>
+<li>那么世界何时产生？怎么从一个“不存在”的时间中产生？</li>
+</ul>
+</li>
+<li>假设空间有限
+<ul>
+<li>那么这个空间之外是“空”</li>
+<li>既然外面时空，就没有物体实际阻隔，那么，实际上空间是无限的</li>
+</ul>
+</li>
+</ul>
+<h2 id="第二组二律背反物体是否可分">第二组二律背反：物体是否可分</h2>
+<h2 id="第三组二律背反是否存在自由意志">第三组二律背反：是否存在自由意志</h2>
+<p>康德的范畴</p>
+<ul>
+<li>数学范畴
+<ul>
+<li>量</li>
+<li>质</li>
+</ul>
+</li>
+<li>力学范畴
+<ul>
+<li>关系</li>
+<li>样式</li>
+</ul>
+</li>
+</ul>
+<p>正题：因果律不能完全解释世界，需要引入自由因</p>
+<p>反题：一切必然</p>
+<ul>
+<li>如果需要引入自由因
+<ul>
+<li>那么自由因本身即违背了因果律</li>
+</ul>
+</li>
+<li>如果一切注定
+<ul>
+<li>因果序列本身需要引入一个原因 <code>a</code></li>
+<li>但是 <code>a</code>没有原因，因此是自由因</li>
+</ul>
+</li>
+</ul>
+<p><font size = 4 color = purple>这是琢磨了多久🐡</font></p>
+<h3 id="自由因">“自由因”</h3>
+<p>当我们接受康德的观点时，在现象界，一切服从因果律；但是在现象之外的自由因，是说的通的，因为不需要再命令其服从因果律</p>
+<h2 id="理性神学理想">理性神学：理想</h2>
+<blockquote>
+<p>康德的核心批判：关于上帝存在的本体论证明</p>
+</blockquote>
+<p>批判的核心思路：判断的逻辑必然性和事实的现实必然性两者之间的区别。</p>
+<ul>
+<li>“飞马是马”</li>
+<li>我用逻辑当中的自身价值，去买一片事实上的面包</li>
+</ul>
+<h1 id="实践理性人类理性道德">实践理性——人类理性/道德</h1>
+<ul>
+<li>自然法则：<code>是</code></li>
+<li>道德法则：<code>应该</code></li>
+</ul>
+<p><u><em><strong>理性法则对于人，体现为道德上的“应该”，体现对完满信仰的追求</strong></em></u></p>
+<p>康德：典型的动机论</p>
+<blockquote>
+<p><u>“诚实”是一种道德吗</u></p>
+<ul>
+<li>商人<u><em><strong>童叟无欺</strong></em></u>的目的并不在于诚实，可能是追求利润</li>
+<li>揭穿<u><em><strong>善意的谎言</strong></em></u>，虽然诚实，但是动机叵测</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>康德认为，（纯）道德性为在现实中没有并不意味着理想申不应该有。</p>
+</blockquote>
+<h2 id="人的价值和尊严自然中没有但是应该有">人的价值和尊严——“自然中没有，但是应该有”</h2>
+<p>康德批判以往的哲学家认为道德是提炼过的“利己之心”</p>
+<p>康德认为人类就是在追求现实中不一定有，但是理想中“应该有的东西”</p>
+<ul>
+<li>“知己”</li>
+<li>“平等”</li>
+</ul>
+<h2 id="道德行为定言命令的动机理性为自身立法">道德行为（定言命令）的动机——理性为自身立法</h2>
+<ul>
+<li>主观准则上升到“理性人”的普遍动机</li>
+<li>“理性人”的普遍动机本身</li>
+</ul>
+<p><strong>假言命令</strong></p>
+<ul>
+<li>假如我不诚信，我会失去信誉</li>
+<li>所以我应该诚信</li>
+</ul>
+<p><strong>直言命令</strong></p>
+<ul>
+<li>我应该诚信</li>
+</ul>
+<p>《道德形而上学》当中的必要条件</p>
+<ol>
+<li>
+<p>普遍性公式</p>
+<p>动机必须上升到普遍法则</p>
+</li>
+<li>
+<p>质料公式（判定主观准则的内容）</p>
+<blockquote>
+<p>人是目的，而非手段</p>
+</blockquote>
+<p>什么动机会对所有有理性者都有效？——<strong>理性自身</strong></p>
+</li>
+<li>
+<p>自律性公式</p>
+<blockquote>
+<p>每个有理性的存在，在任何时候都要把自己看作是一个由于意志自由而可能的目的王国中的立法者。</p>
+</blockquote>
+<ul>
+<li>自由就是自律，就是出于内在必然性而行动</li>
+<li>自由就是道德</li>
+</ul>
+</li>
+</ol>
+<h2 id="实践理性第一">实践理性第一</h2>
+<p>人生活在经验的现实条件中，知性（先天认识能力）确立了自然法则。</p>
+<p>但是处于实践理性的动机，即使其行为落入了经验世界中，受到必然所限制，但是<strong>动机本身超越了经验条件的限制</strong>。</p>
+<h2 id="实践理性的二律背反道德无条件实现有条件">实践理性的二律背反——道德无条件，实现有条件</h2>
+<p>相对于<code>我思</code>，存在感性的世界（现象界）和理性的世界（本体界），人在两个领域共存。</p>
+<ul>
+<li>
+<p>感性世界——现实中的幸福</p>
+</li>
+<li>
+<p>理性世界——道德</p>
+</li>
+<li>
+<p>追求幸福获得德性是不对的，因为不纯粹</p>
+</li>
+<li>
+<p>追求德性而获得幸福，虽然不可能，但是是应该的</p>
+<ul>
+<li>“好人受苦，恶人当道”</li>
+<li>但是这也是不可能的，因为实践理性无法自身发挥作用，必须通过行动给转移到感性世界并且在自然法则的约束下发挥作用</li>
+</ul>
+</li>
+</ul>
+<h2 id="实践理性可以实现的假设">实践理性可以实现的假设</h2>
+<ol>
+<li>
+<p>意志自由</p>
+<p>个人可以将主观动机上升为普遍法则</p>
+</li>
+<li>
+<p>灵魂不朽</p>
+<blockquote>
+<p>康德坦诚地认为：“至善”不可达，因为自然法则无法摆脱</p>
+</blockquote>
+</li>
+<li>
+<p>上帝存在</p>
+<p>理想必须有可能性，才有追求的意义。必须有超验原因保证现象界和协调一致</p>
+<p><u><em><strong>神学不彻底性</strong></em></u></p>
+</li>
+</ol>
+<blockquote>
+<p>有两样东西，我们愈经常愈持久地加以思索，它们就愈使心灵充满始终新鲜不断增长的景仰和敬畏：在我之上的星空和居我心中的道德法则。</p>
+<p>&quot;Two things fill the mind with ever new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me.&quot;</p>
+<p>― Immanuel Kant</p>
+</blockquote>
+<h2 id="star道德高于星空">⭐️道德高于星空</h2>
+<ul>
+<li>The starry heavens above me 自然存在</li>
+<li>The moral law within me 道德存在</li>
+</ul>
+<p>自律（道德），使我和超感性的、自由的世界联系起来，进而实现人的价值的尊严</p>
+<ul>
+<li><strong>科学无法填补上帝的空缺</strong></li>
+<li><strong>工具理性无法代替价值理性</strong>
+<ul>
+<li>马克思·韦伯</li>
+<li>高效率，合理性？</li>
+</ul>
+</li>
+<li><strong>物质文明无法代替精神文明</strong></li>
+</ul>
+<h1 id="康德哲学的局限性">康德哲学的局限性</h1>
+<p>康德自觉地从二元论和不可知论出发，不过没有完成统一。</p>
+
+            </div>
+            
+            
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong class="language" data-lan="author">本文作者：</strong>
+      Frank
+    </li>
+    <li class="post-copyright-link">
+      <strong class="language" data-lan="link">本文链接：</strong>
+      <a href="https://zxy.js.org/post/Kant/" title="[西方哲学史] 康德">https://zxy.js.org/post/Kant/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong class="language" data-lan="copyright">版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://zxy.js.org/tag/e_sTJgNU6/"># Thoughts 🍉</a>
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+        <i class="fa fa-chevron-left"></i>
+        <a class="nav-pc-next" title="[西方哲学史] 黑格尔" href="https://zxy.js.org/post/Hegel/">[西方哲学史] 黑格尔</a class="nav-pc-next">
+        <a class="nav-mobile-prev" title="[西方哲学史] 黑格尔" href="https://zxy.js.org/post/Hegel/">上一篇</a>
+      
+    </div>
+    <div class="nav-next">
+      
+        <a class="nav-pc-next" title="[西方哲学史] 社会政治理论" href="https://zxy.js.org/post/social-political/">[西方哲学史] 社会政治理论</a>
+        <a class="nav-mobile-next" title="[西方哲学史] 社会政治理论" href="https://zxy.js.org/post/social-political/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
+      
+    </div>
+  </div>
+</div>
+            
+            
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
+
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
+
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'org3iYW7XwhGPGg3MM27GB46-gzGzoHsz',
+    appKey: 'dgdbH6FU9x7bzs28NDWGJaog',
+    avatar: '',
+    placeholder: 'Your kind comments are appreciated 😊',
+    pageSize: '10',
+    lang: 'zh-cn',
+    enableQQ: 'true' === 'false',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+  });
+</script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
+        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+  <div class="bg-img">
+    <img src="/media/images/Santorini.jpg" />
+  </div>
+  
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+    back2TopText = document.querySelector('#back_to_top_text'),
+    drawerBox = document.querySelector('#drawer_box'),
+    rightSideBar = document.querySelector('.sidebar'),
+    viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener('scroll', function (e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+
+  let hasCacu = false;
+  window.onresize = function () {
+    calcuHeight();
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, transitionDir, {});
+          }
+        })
+        window.Velocity(viewport, openProp, {
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target", "_blank");
+      }
+    })
+  }
+
+  let faSearch = document.querySelector('#fa_search');
+  faSearch.addEventListener('click', function () {
+    document.querySelector('#search_mask').style = ''
+  })
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+  
+  // 离开当前页title变化
+  var leaveTitle = "";
+  if (leaveTitle) {
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+    <div class="reward-mask" style="display: none;">
+  <div class="reward-relative">
+    <span class="close" aria-hidden="true">x</span>
+    <div class="reward-body">
+      <h2>感谢您的支持，我会继续努力的!</h2>
+      <div class="reward-img-box">
+        <div style="position: relative; width: 140px; height: 140px;">
+          
+          
+          
+        </div>
+      </div>
+      <p class="reward-word">扫码打赏，你说多少就多少</p>
+      <p class="reward-tip">打开微信扫一扫，即可进行扫码打赏哦</p>
+    </div>
+    <div class="bottom">
+      
+      
+    </div>
+  </div>
+</div>
+<style>
+  .reward-mask {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000054;
+  }
+
+  .reward-relative {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 50%;
+    margin-top: -205px;
+  }
+
+  .reward-relative .close {
+    position: absolute;
+    right: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+  }
+
+  .reward-body {
+    padding: 40px 20px 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .reward-btn {
+    text-align: center;
+  }
+
+  .reward-btn-text {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #ff9734;
+    color: #FFF;
+    margin-top: 20px;
+  }
+
+  .pay-text {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    transition: all .2s linear;
+  }
+
+  .pay-text:hover {
+    background-color: #a5a5a536;
+  }
+
+  .reward-body h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+  }
+
+  .reward-body h2:after,
+  .reward-body h2:before {
+    font-family: Arial, Helvetica, sans-serif;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    font-style: normal;
+    color: #eee;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .reward-body h2:before {
+    content: '\201c';
+    left: 50px;
+  }
+
+  .reward-body h2:after {
+    content: '\201d';
+    right: 80px;
+  }
+
+  .reward-img-box {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .reward-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .reward-relative {
+      height: 100%;
+      top: 0px;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .reward-relative .bottom {
+      flex-direction: column;
+    }
+
+    .reward-relative .pay-text {
+      width: 80%;
+      margin: 5px auto;
+      border: 1px solid silver;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .reward-body h2:after {
+      right: 40px;
+    }
+
+    .reward-body h2:after,
+    .reward-body h2:before {
+      font-size: 60px;
+    }
+
+    .reward-body h2:before {
+      left: 20px;
+    }
+  }
+</style>
+<script>
+  !function () {
+    var mask = document.querySelector('.reward-mask');
+    let close = document.querySelector('.reward-relative .close');
+    let rewardBtn = document.querySelector('.reward-btn');
+
+    let zfb = document.querySelector('#zfb'),
+      wx = document.querySelector('#wx'),
+      zfbBtn = document.querySelector('#zfbBtn'),
+      wxBtn = document.querySelector('#wxBtn');
+
+    if (zfbBtn && wxBtn) {
+      zfbBtn.addEventListener('click', () => {
+        window.Velocity(zfb, 'transition.slideLeftIn', {
+          duration: 400
+        });
+        window.Velocity(wx, 'transition.slideRightOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+
+      wxBtn.addEventListener('click', () => {
+        window.Velocity(wx, 'transition.slideRightIn', {
+          duration: 400
+        });
+        window.Velocity(zfb, 'transition.slideLeftOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+    }
+
+    rewardBtn.addEventListener('click', (e) => {
+      window.Velocity(mask, 'transition.slideDownIn', {
+        duration: 400
+      })
+    });
+
+    close.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.Velocity(mask, 'transition.slideUpOut', {
+        duration: 400
+      })
+    })
+  }()
+</script>
+
+  </div>
+</body>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
+
+
+
+
+
+</html>
