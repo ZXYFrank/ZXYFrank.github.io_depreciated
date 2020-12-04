@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zxy.js.org</id>
     <title>xyz&apos;s blog</title>
-    <updated>2020-11-24T08:44:45.069Z</updated>
+    <updated>2020-12-04T14:57:50.569Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zxy.js.org"/>
     <link rel="self" href="https://zxy.js.org/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://zxy.js.org/images/avatar.png</logo>
     <icon>https://zxy.js.org/favicon.ico</icon>
     <rights>All rights reserved 2020, xyz&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[黄金时代]]></title>
+        <id>https://zxy.js.org/post/huang-jin-shi-dai/</id>
+        <link href="https://zxy.js.org/post/huang-jin-shi-dai/">
+        </link>
+        <updated>2020-12-04T14:57:04.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[说话集 拼图+]]></title>
         <id>https://zxy.js.org/post/shuo-hua-ji-puzzle/</id>
@@ -72,12 +79,5 @@
         <link href="https://zxy.js.org/post/basic/">
         </link>
         <updated>2020-11-05T14:48:26.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[西方哲学史] 哲学和人生]]></title>
-        <id>https://zxy.js.org/post/philosophy/</id>
-        <link href="https://zxy.js.org/post/philosophy/">
-        </link>
-        <updated>2020-11-05T14:47:41.000Z</updated>
     </entry>
 </feed>
